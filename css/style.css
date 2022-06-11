@@ -1,0 +1,87 @@
+/* HTML TAGS */
+body{
+    margin: 0;
+    align-items: center;
+}
+footer{
+    background-color: #007582;
+    color: white;
+    padding: 32px;
+    
+}
+footer p{
+    text-align: center;
+}
+footer img{
+    text-align: center;
+}
+
+hr{
+    border-style:dotted none none;
+    border-color: #A5BECC;
+    border-width: 5px;
+    width: 3%;
+}
+h1{    
+    font-family: 'Italianno', cursive;
+    font-weight:initial;
+    font-size:60px;   
+}
+h3{font-family: 'PT Sans', sans-serif;}
+li{font-family: 'PT Sans', sans-serif;}
+p{font-family: 'PT Sans', sans-serif;}
+a{
+    font-family: 'PT Sans', sans-serif;
+    text-decoration:#3EC0CF;
+   
+}
+/* BARRA DE NAVEGAÇÃO HORIZONTAL */
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #007582;   
+}
+.navbarli{
+    float:left;
+     
+}
+.navbara{
+    display: block;
+    padding: 17px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navbara:hover{
+    background-color:#2D8C97;
+    color: white;
+}
+.active{
+    background-color:white ;
+    color: #007582;
+}
+/* ITENS DA PÁGINA */
+.minhafoto{
+    max-width: 150px;
+   
+}
+.minhalogo{
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.corpo{
+    text-align: center; 
+    color: #00474F;
+}
