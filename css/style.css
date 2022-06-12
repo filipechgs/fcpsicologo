@@ -82,7 +82,7 @@ a{
     width: 50%;
 }
 .textojustificado p{
-    text-align: justify;
+    text-align: left;
 /*     -ms-text-size-adjust: auto; */
 }
 .corpo{
