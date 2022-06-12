@@ -81,6 +81,10 @@ a{
     margin-right: auto;
     width: 50%;
 }
+.textojustificado p{
+    text-align: justify;
+    -ms-text-size-adjust: auto;
+}
 .corpo{
     text-align: center; 
     color: #00474F;
