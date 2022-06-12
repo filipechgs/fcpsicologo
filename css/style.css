@@ -83,7 +83,7 @@ a{
 }
 .textojustificado p{
     text-align: justify;
-    -ms-text-size-adjust: auto;
+/*     -ms-text-size-adjust: auto; */
 }
 .corpo{
     text-align: center; 
