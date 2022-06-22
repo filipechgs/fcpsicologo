@@ -4,10 +4,10 @@ body{
     align-items: center;
 }
 footer{
+    align-items: center;
     background-color: #007582;
     color: white;
-    padding: 32px;
-    
+    padding: 32px;  
 }
 footer p{
     text-align: center;
@@ -15,7 +15,6 @@ footer p{
 footer img{
     text-align: center;
 }
-
 hr{
     border-style:dotted none none;
     border-color: #A5BECC;
@@ -24,37 +23,39 @@ hr{
 }
 h1{    
     font-family: 'Italianno', cursive;
+    font-size: 400%;
     font-weight:initial;
-    font-size:xxx-large;   
+       
 }
 h3{font-family: 'PT Sans', sans-serif;}
 li{font-family: 'PT Sans', sans-serif;}
 p{font-family: 'PT Sans', sans-serif;}
 a{
     font-family: 'PT Sans', sans-serif;
-    text-decoration:#3EC0CF;
-   
+    text-decoration:#3EC0CF;   
 }
 /* BARRA DE NAVEGAÇÃO HORIZONTAL */
 .navbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #007582;   
+    overflow:hidden;
+    background-color: #007582;
+    
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+    
 }
 .navbarli{
-    float:left;
-     
+    float:left;    
 }
 .navbara{
     display: block;
     padding: 17px;
     text-decoration: none;
-    color: white;
-    
+    color: white;   
 }
-
 .navbara:hover{
     background-color:#2D8C97;
     color: white;
@@ -64,9 +65,16 @@ a{
     color: #007582;
 }
 /* ITENS DA PÁGINA */
+.apresenta{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.psic{
+    font-weight: normal;
+}    
 .minhafoto{
     max-width: 150px;
-   
+    margin-top: 100px;   
 }
 .minhalogo{
     max-width: 200px;
@@ -79,11 +87,12 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 75%;
 }
 .textojustificado p{
+    line-height: 1.5;
     text-align: left;
-/*     -ms-text-size-adjust: auto; */
+    -ms-text-size-adjust: auto 5px auto 5px;
 }
 .corpo{
     text-align: center; 
